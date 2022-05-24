@@ -1,0 +1,24 @@
+.title {
+    font-family: Impact;
+    display: flex;
+    color: white;
+    text-shadow: 2px 2px 4px  #626be8;
+    overflow:hidden;
+    border-right:.15em ;
+    white-space: nowrap;
+    animation: typing 2.5s steps(40,end) forwards;
+    justify-content: center;
+    font-size: 5rem;
+    width:0;
+}
+
+@media (max-width:991px) {
+    .title {
+    font-size: calc(2vw + 3rem);
+    }
+}
+
+@keyframes typing{
+    from{width:0}
+    to {width: 100%}
+}

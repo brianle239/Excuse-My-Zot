@@ -1,0 +1,53 @@
+.carrier {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    font-family: Impact;
+    font-weight: 200;
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 4px  #626be8;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 32px;
+    
+}
+
+.verizon,
+.att,
+.sprint,
+.t-mobile {
+    font-size: 28px;
+    font-family: Impact;
+    color: white;
+    text-shadow: 2px 2px 4px  #626be8;
+}
+
+.verizon,
+.att {
+    color: white;
+    text-shadow: 2px 2px 4px  #626be8;
+}
+
+.sprint,
+.t-mobile {
+    color: white;
+    text-shadow: 2px 2px 4px  #626be8;
+}
+
+@media (max-width:991px) {
+    .verizon,
+    .att,
+    .sprint,
+    .t-mobile {
+    font-size: calc(0.1vw + 1rem);
+    }
+}
+
+input {
+    width: 26px;
+    height: 26px;
+}

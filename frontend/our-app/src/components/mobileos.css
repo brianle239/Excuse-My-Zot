@@ -1,0 +1,8 @@
+.prompt {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    font-family: Impact;
+    font-weight: 200;
+    font-size: 32px;
+}

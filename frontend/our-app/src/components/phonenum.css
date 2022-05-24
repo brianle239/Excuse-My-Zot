@@ -1,0 +1,26 @@
+.phonenum {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    font-family: Impact;
+    font-weight: 200;
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 4px  #626be8;
+
+}
+
+.input {
+    padding-top: 12px;
+    text-align: center;
+}
+
+input{
+    border: red;
+    border-radius: 8px;
+}
+
+.num {
+    width: 60%;
+}
+

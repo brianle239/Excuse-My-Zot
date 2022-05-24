@@ -1,0 +1,16 @@
+html,
+.backgrounds {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    background-image:linear-gradient(120deg,#225d63,#326eb9,#42806f,#539275,#64947b);
+    background-size: 400%;
+    background-attachment: fixed;
+    animation: background-animation 5s infinite alternate;
+}
+
+@keyframes background-animation{
+    0% {background-position:left}
+    100%{background-position:right}
+
+}
